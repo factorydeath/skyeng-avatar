@@ -20,6 +20,10 @@ Kotlin 2.0 · Jetpack Compose (Material 3) · Ktor 3 · kotlinx.serialization ·
 
 minSdk 26 · targetSdk 34 · JDK 17
 
+## Скачать
+
+Последняя сборка — на странице [Releases](https://github.com/factorydeath/skyeng-avatar/releases/latest): файл `skyeng-avatar.apk`.
+
 ## Сборка
 
 ```bash
@@ -33,9 +37,10 @@ minSdk 26 · targetSdk 34 · JDK 17
 
 ## Канал обновлений
 
-Файлы `version.txt` и `skyeng-avatar.apk` в корне репозитория используются встроенным механизмом
-самообновления: приложение сравнивает версию из `version.txt` с установленной, скачивает APK,
-проверяет пакет, versionCode и подпись, затем предлагает установку.
+Установленное приложение проверяет обновления само: `version.txt` в корне репозитория хранит номер
+последней версии, `skyeng-avatar.apk` — последнюю сборку. Приложение сравнивает версию, скачивает APK,
+проверяет пакет, versionCode и подпись, затем предлагает установку. Тот же файл продублирован
+в [Releases](https://github.com/factorydeath/skyeng-avatar/releases/latest).
 
 ## Структура
 
