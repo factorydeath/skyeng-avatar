@@ -11,3 +11,11 @@ app/build/
 keystore.properties
 release.keystore
 *.jks
+
+# Local working folders and archives
+zipka.zip
+skyproapp/
+skypro_bug/
+skypro_reshala/
+cookies.txt
+TASK_PLAN.md
